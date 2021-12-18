@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.servicios.ServiciosFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--    Codigo Caja 1-->
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F8AB4B"
+                android:fontFamily="@font/indie"
+                android:textAlignment="center"
+                android:textColor="#FF000000"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:text="Organización de eventos" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="25dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgP1"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:src="@drawable/even" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvNameP1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nameE1"
+                        android:fontFamily="@font/indie"
+                        android:textSize="26sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textColor="#FF000000"/>
+
+                    <TextView
+                        android:id="@+id/tvDescriptionP1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/descriptionE1"
+                        android:fontFamily="@font/garamondi"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvPriceP1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/descriptionEe1"
+                        android:fontFamily="@font/garamondi"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F8AB4B"
+                android:fontFamily="@font/indie"
+                android:textAlignment="center"
+                android:textColor="#FF000000"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:text="Domicilios" />
+
+            <!--    Codigo Caja 2-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="25dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgP2"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="40dp"
+                    android:src="@drawable/call" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvNameP2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nameE2"
+                        android:fontFamily="@font/indie"
+                        android:textSize="26sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textColor="#FF000000"/>
+
+                    <TextView
+                        android:id="@+id/tvDescriptionP2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/descriptionE2"
+                        android:fontFamily="@font/garamondi"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvPriceP2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/descriptionEe2"
+                        android:fontFamily="@font/garamondi"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F8AB4B"
+                android:fontFamily="@font/indie"
+                android:textAlignment="center"
+                android:textColor="#FF000000"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:text="Call Centeer" />
+
+            <!--    Codigo Caja 3-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="25dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgP3"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp"
+                    android:src="@drawable/domicilios" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvNameP3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nameE3"
+                        android:fontFamily="@font/indie"
+                        android:textSize="26sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textColor="#FF000000"/>
+
+                    <TextView
+                        android:id="@+id/tvDescriptionP3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/descriptionE3"
+                        android:fontFamily="@font/garamondi"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tvPriceP3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/descriptionEe3"
+                        android:fontFamily="@font/garamondi"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
